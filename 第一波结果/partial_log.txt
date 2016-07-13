@@ -1,0 +1,400 @@
+2016-07-12 11:53:09 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19600044/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:53:12 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/20037884/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:53:13 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/20031024/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:53:14 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/20031026/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:53:18 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19854550/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:53:19 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19610188/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:53:42 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19644215/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:53:44 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19636868/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:53:46 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19636864/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:53:52 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19912671/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:53:57 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/20027730/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:54:01 [scrapy] INFO: Crawled 6231 pages (at 49 pages/min), scraped 0 items (at 0 items/min)
+2016-07-12 11:54:12 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/20027537/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:54:15 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/20022067/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:54:16 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19750704/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 11:54:20 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19708158/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()[0]
+IndexError: list index out of range
+2016-07-12 14:18:33 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19809560/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:35 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19571298/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:36 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19871650/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:38 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19659788/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:39 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19659100/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:40 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/20012256/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:42 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558768/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:43 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558771/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:45 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558773/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:46 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558776/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:47 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558780/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:48 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558784/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:49 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558786/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:50 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558790/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:51 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558794/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:52 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558912/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:53 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558911/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:54 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/20017356/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:56 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558886/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:58 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558910/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:18:59 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19646919/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:00 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558904/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:01 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558900/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:01 [scrapy] INFO: Crawled 13152 pages (at 50 pages/min), scraped 0 items (at 0 items/min)
+2016-07-12 14:19:02 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/20013785/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:03 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19651734/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:04 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558763/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:05 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558925/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:06 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558926/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:07 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558929/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:08 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558931/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:09 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558935/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:10 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558917/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:11 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/20041626/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:12 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/20020032/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:13 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558897/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:14 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19691281/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:15 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558884/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:16 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19558921/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:17 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/20012411/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:19 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19861243/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:22 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19664593/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()
+IndexError: list index out of range
+2016-07-12 14:19:24 [scrapy] ERROR: Spider error processing <GET https://www.zhihu.com/topic/19582618/organize> (referer: http://www.zhihu.com)
+Traceback (most recent call last):
+  File "c:\users\jingchen\anaconda2\lib\site-packages\twisted\internet\defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Jingchen\OneDrive\Boson\zhihu_tag_crawler\zhihu_tagCrawler\zhihu_tagCrawler\spiders\zhihu_spider.py", line 127, in parse_tagPage
+    name = sel.xpath('//h1[@class= "zm-editable-content"]/text()').extract()

@@ -13,7 +13,21 @@ BOT_NAME = 'zhihu_tagCrawler'
 
 SPIDER_MODULES = ['zhihu_tagCrawler.spiders']
 NEWSPIDER_MODULE = 'zhihu_tagCrawler.spiders'
+DUPEFILTER_DEBUG = True
+REDIRECT_ENABLED = True
 
+# Initate Breadth-first search
+DEPTH_PRIORITY = 1
+SCHEDULER_DISK_QUEUE = 'scrapy.squeues.PickleFifoDiskQueue'
+SCHEDULER_MEMORY_QUEUE = 'scrapy.squeues.FifoMemoryQueue'
+
+# Control crawling speed
+DOWNLOAD_DELAY= 1
+
+# Enable pipeline
+ITEM_PIPELINES = {
+    'zhihu_tagCrawler.pipelines.ZhihuTagcrawlerPipeline': 300,
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'zhihu_tagCrawler (+http://www.yourdomain.com)'
@@ -24,7 +38,7 @@ NEWSPIDER_MODULE = 'zhihu_tagCrawler.spiders'
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY=3
+
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN=16
 #CONCURRENT_REQUESTS_PER_IP=16
@@ -49,9 +63,9 @@ NEWSPIDER_MODULE = 'zhihu_tagCrawler.spiders'
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
+# DOWNLOADER_MIDDLEWARES = {
 #    'zhihu_tagCrawler.middlewares.MyCustomDownloaderMiddleware': 543,
-#}
+# }
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
@@ -61,9 +75,7 @@ NEWSPIDER_MODULE = 'zhihu_tagCrawler.spiders'
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'zhihu_tagCrawler.pipelines.SomePipeline': 300,
-#}
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

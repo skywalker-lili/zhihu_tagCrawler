@@ -9,6 +9,11 @@ import scrapy
 
 
 class ZhihuTagcrawlerItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    name = scrapy.Field() # tag的名字
+    relative_link = scrapy.Field() # tag的相对链接
+    parents = scrapy.Field() # tag的父tag们 
+    children = scrapy.Field() # tag的子tag们
+    
+    
+    
+
